@@ -1,0 +1,40 @@
+.NavBar {
+    height: 66px;
+    width: 80%;
+}
+.NavBarCont {
+    height: 66px;
+}
+
+#menu {
+    position: absolute;
+    top: 66px;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+@media (min-width: 1024px) {
+    #menu {
+        position: static;
+        border: none;
+        box-shadow: none;
+        width: auto;
+        background-color: transparent;
+        margin-right: calc(5vw);
+    }
+
+    #menu li {
+        border: none;
+    }
+}
