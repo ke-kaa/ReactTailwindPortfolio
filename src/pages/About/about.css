@@ -6,6 +6,9 @@
     color: #6c757d;
 }
 
+.my-motto {
+    font-family: "Dancing Script";
+}
 @media (min-width: 768px) {
     .personal-info {
         width: 500px;
