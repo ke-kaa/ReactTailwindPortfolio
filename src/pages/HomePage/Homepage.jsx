@@ -62,7 +62,7 @@ export default function () {
           <div className="my-name text-5xl font-bold my-5">
             KAKU AMSALU
           </div>
-          <p>Aspiring Full-Stack Developer | Passionate About Web Development & AI</p>
+          <p className='px-3'>Aspiring Full-Stack Developer | Passionate About Web Development & AI</p>
           <div id="work-contact" className='my-10 md:flex md:flex-row md:gap-2 md:justify-self-center md:gap-10'>
             <a href='#' className='portfolio-link block justify-self-center bg-black text-white p-3'>View My Works</a>
             <a href='#' className="contact-me underline flex items-center justify-self-center h-full justify-center my-auto">
