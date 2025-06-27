@@ -1,0 +1,13 @@
+.personal-info {
+    width: 296px;
+}
+
+.color-6c {
+    color: #6c757d;
+}
+
+@media (min-width: 768px) {
+    .personal-info {
+        width: 500px;
+    } 
+}
