@@ -35,8 +35,8 @@ export default function Header() {
                 <div id="m-name" className="self-center font-bold">
                     <a href="#">KAKU</a>
                 </div>
-                <div className="flex jusitfy-between ">
-                    <button ref={buttonRef} id='more-button' onClick={() => setMenuVisible(!menuVisible)} className="relative lg:hidden" aria-label={menuVisible ? 'Clos menu' : 'Open menu'} aria-expande={menuVisible}>
+                <div className="flex justify-between ">
+                    <button ref={buttonRef} id='more-button' onClick={() => setMenuVisible(!menuVisible)} className="relative lg:hidden" aria-label={menuVisible ? 'Close menu' : 'Open menu'} aria-expanded={menuVisible}>
                         <div className="relative flex items-center justify-center w-[50px] h-[50px] duration-200">
                             <div
                                 className={`flex flex-col justify-between w-[20px] h-[20px] transform transition-all duration-300 ${
