@@ -18,7 +18,7 @@ export default function Resume() {
     return (
         <div className='min-h-screen py-10 px-5'>
             <h1 className='text-4xl font-bold text-center mt-5'>A summary of my resume</h1>
-            <div id="resume-container" className='my-10 lg:flex lg:gap-5'>
+            <div id="resume-container" className='my-10 lg:flex lg:gap-5 max-w-[1400px] mx-auto'>
                 <div id="education" className='my-10 lg:fex-1'>
                     <h2 className='text-2xl font-bold my-5'>My Education</h2>
                     <div id="education-container" className='border-l-4 pl-5 py-3'>
@@ -39,8 +39,8 @@ export default function Resume() {
                     </div>
                 </div>
             </div>
-            <h2 className='font-bold mb-10 text-2xl'>My Skills</h2>
-            <div className='lg:flex lg:gap-15 px-2'>
+            <h2 className='font-bold mb-10 text-2xl text-center'>My Skills</h2>
+            <div id="skill-container" className='lg:flex lg:gap-15 px-2 max-w-[1400px] mx-auto'>
                 <div className='lg:flex-1'> 
                     <SkillBar skill="Python" progress="85%"/>
                     <SkillBar skill="Django" progress="85%"/>
