@@ -1,5 +1,6 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import './contact.css'
+import { sendEmail } from '../../utils/emailService'
 
 import xIcon from '../../assets/icons/x-icon.png'
 import instagramIcon from '../../assets/icons/instagram-icon.png'
@@ -24,15 +25,18 @@ export default function Contact() {
                 </div>
                 <div id="form-container" className='lg:flex-1'>
                     <h1 className='text-5xl font-bold my-20 text-center lg:mt-0'>Estimate your Project?</h1>
-                    <form action="" className='w-11/12 m-auto'>
-                        <label for="fname">Your Name:</label>
-                        <input type="text" name="fname" id="fname" />
+                    <form onSubmit={sendEmail} className='w-11/12 m-auto'>
+                        <label for="fname">Name:</label>
+                        <input type="text" name="fname" id="fname" className="transition-transform duration-300 focus:shadow-lg focus:shadow-black/20"/>
 
-                        <label for="email-address">Your Email Address:</label>
-                        <input type="text" name="email-address" id="email-address" />
+                        <label for="email-address">Email:</label>
+                        <input type="email" name="email-address" id="email-address" className='transition-transform duration-300 focus:shadow-lg focus:shadow-black/20' />
+
+                        <label for="subject">Subject:</label>
+                        <input type="text" name="subject" id="subject" className='transition-transform duration-300 focus:shadow-lg focus:shadow-black/20' />
 
                         <label for="client-work">How can I Help you?:</label>
-                        <textarea name="client-work" id="client-work" rows="4" className='w-full p-2.5 border-none mb-4'></textarea>
+                        <textarea name="client-work" id="client-work" rows="4" className='w-full p-2.5 border-none mb-4 transition-transform duration-300 focus:shadow-lg focus:shadow-black/20'></textarea>
 
                         <button type="submit" className='text-white bg-black border-none cursor-pointer p-2.5 block'>Send</button>
                     </form>
