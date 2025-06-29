@@ -8,7 +8,7 @@ import './projectCard.css'
 export default function ProjectCard({title, imgSrc, description, languages, githubUrl, visitUrl }) {
 
     return (
-        <div className='flex flex-col rounded-lg overflow-hidden shadow-2xl bg-[#fff] border-black'>
+        <div className='flex flex-col rounded-lg overflow-hidden shadow-2xl bg-[#fff] border-black transition-transform ease-in-out duration-700 hover:scale-105'>
             <div className='h-[270px] w-full overflow-hidden flex items-center justify-center'>
                 {imgSrc ? (
                     <img src={imgSrc} alt={title} className='w-full h-full object-cover'/>
