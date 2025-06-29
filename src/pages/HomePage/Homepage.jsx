@@ -64,8 +64,8 @@ export default function () {
           </div>
           <p className='px-3'>Aspiring Full-Stack Developer | Passionate About Web Development & AI</p>
           <div id="work-contact" className='my-10 md:flex md:flex-row md:gap-2 md:justify-self-center md:gap-10'>
-            <a href='#' id="view-my-work" className='portfolio-link block justify-self-center bg-black text-white p-3 transition-transform duration-300 hover:scale-110'>View My Works</a>
-            <a href='#' id="contact-me" className="contact-me underline flex items-center justify-self-center h-full justify-center my-auto transition-transform duration-300 hover:scale-105">
+            <a href='#' id="view-my-work" className='portfolio-link block justify-self-center bg-black text-white p-3 transition-transform duration-300 hover:scale-110 focus:scale-105'>View My Works</a>
+            <a href='#' id="contact-me" className="contact-me underline flex items-center justify-self-center h-full justify-center my-auto transition-transform duration-300 hover:scale-110 focus:scale-105 focus:outline-none">
               Contact me
               <img src={downArrow} alt="" className='animate-bounce w-4 h-4'/>
             </a>
