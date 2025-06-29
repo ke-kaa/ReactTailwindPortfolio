@@ -16,49 +16,47 @@ export default function Resume() {
     const mobileDescription = "Develop performant cross-platform applications (Flutter) with native module integration. Optimize for device constraints, implement platform-specific UX patterns, and leverage CI/CD pipelines for streamlined deployment.";    
     
     return (
-        <div className='min-h-screen py-10 px-5'>
-            <h1 className='text-4xl font-bold text-center mt-5'>A summary of my resume</h1>
-            <div id="resume-container" className='my-10 lg:flex lg:gap-5 max-w-[1400px] mx-auto'>
-                <div id="education" className='my-10 lg:fex-1'>
-                    <h2 className='text-2xl font-bold my-5'>My Education</h2>
-                    <div id="education-container" className='border-l-4 pl-5 py-3'>
-                        <EducationCard title="BSc in Software Engineering" completionTime="AAU | 2022 - 2027" description={softwareDescription}/>
-                        <EducationCard title="Backend Development Program" completionTime="ALX Ethiopia | 2024 - 2025" description={backendDescription}/>
-                        <EducationCard title="Pro Backend Development" completionTime="ALX Ethiopia | 2025 - 2026" description={proBackendDescription}/>
-                        <EducationCard title="AWS Cloud Computing" completionTime="ALX Ethiopia | 2025 - 2026" description={awsDescription}/>
+        <div className='min-h-screen py-10 px-5 flex items-center '>
+            <div className='mx-auto'>
+                <h1 className='text-4xl font-bold text-center mt-5'>A summary of my resume</h1>
+                <div id="resume-container" className='my-10 lg:flex lg:gap-5 max-w-[1400px] mx-auto'>
+                    <div id="education" className='my-10 lg:fex-1'>
+                        <h2 className='text-2xl font-bold my-5'>My Education</h2>
+                        <div id="education-container" className='border-l-4 pl-5 py-3'>
+                            <EducationCard title="BSc in Software Engineering" completionTime="AAU | 2022 - 2027" description={softwareDescription}/>
+                            <EducationCard title="Backend Development Program" completionTime="ALX Ethiopia | 2024 - 2025" description={backendDescription}/>
+                            <EducationCard title="Pro Backend Development" completionTime="ALX Ethiopia | 2025 - 2026" description={proBackendDescription}/>
+                            <EducationCard title="AWS Cloud Computing" completionTime="ALX Ethiopia | 2025 - 2026" description={awsDescription}/>
+                        </div>
                     </div>
-                </div>
 
-                <div id="experience" className='my-10 lg:fex-1'>
-                    <h2 className='text-2xl font-bold my-5'>My Experience</h2>
-                    <div id="experience-container" className='border-l-4 pl-5 py-3'>
-                        <ExperienceCard title="Front End Developer" description={frontendDescription}/>
-                        <ExperienceCard title="Backend Developer" description={expBackendDescription}/>
-                        <ExperienceCard title="UI/UX Designer" description={uiuxDescription}/>
-                        <ExperienceCard title="Mobile Application Developer" description={mobileDescription}/>
+                    <div id="experience" className='my-10 lg:fex-1'>
+                        <h2 className='text-2xl font-bold my-5'>My Experience</h2>
+                        <div id="experience-container" className='border-l-4 pl-5 py-3'>
+                            <ExperienceCard title="Front End Developer" description={frontendDescription}/>
+                            <ExperienceCard title="Backend Developer" description={expBackendDescription}/>
+                            <ExperienceCard title="UI/UX Designer" description={uiuxDescription}/>
+                            <ExperienceCard title="Mobile Application Developer" description={mobileDescription}/>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <h2 className='font-bold mb-10 text-2xl text-center'>My Skills</h2>
-            <div id="skill-container" className='lg:flex lg:gap-15 px-2 max-w-[1400px] mx-auto'>
-                <div className='lg:flex-1'> 
-                    <SkillBar skill="Python" progress="85%"/>
-                    <SkillBar skill="Django" progress="85%"/>
-                    <SkillBar skill="Django Restframework" progress="85%"/>
-                    <SkillBar skill="Dart" progress="50%"/>
-                    <SkillBar skill="HTML5/CSS" progress="90%"/>
-                    <SkillBar skill="JAVA" progress="60%"/>
-                    <SkillBar skill="Javascript" progress="75%"/>
-                    <SkillBar skill="Bootstrap" progress="75%"/>
-                </div>
-                <div className='lg:flex-1'>
-                    <SkillBar skill="ExpressJS" progress="60%"/>
-                    <SkillBar skill="Flutter" progress="60%"/>
-                    <SkillBar skill="NodeJS" progress="60%"/>
-                    <SkillBar skill="React" progress="75%"/>
-                    <SkillBar skill="MongoDB" progress="70%"/>
-                    <SkillBar skill="MySQL" progress="75%"/>
-                    <SkillBar skill="Figma" progress="65%"/>
+                <h2 className='font-bold mb-10 text-2xl text-center'>My Skills</h2>
+                <div id="skill-container" className='lg:flex lg:gap-15 px-2 max-w-[1400px] mx-auto'>
+                    <div className='lg:flex-1'> 
+                        <SkillBar skill="Python" progress="85%"/>
+                        <SkillBar skill="Django/DRF" progress="85%"/>
+                        <SkillBar skill="HTML5/CSS" progress="90%"/>
+                        <SkillBar skill="Java" progress="60%"/>
+                        <SkillBar skill="Javascript" progress="75%"/>
+                        <SkillBar skill="Bootstrap/Tailwind" progress="75%"/>
+                    </div>
+                    <div className='lg:flex-1'>
+                        <SkillBar skill="Flutter" progress="60%"/>
+                        <SkillBar skill="Node/Express" progress="60%"/>
+                        <SkillBar skill="React" progress="75%"/>
+                        <SkillBar skill="MongoDB" progress="70%"/>
+                        <SkillBar skill="MySQL" progress="75%"/>
+                    </div>
                 </div>
             </div>
         </div>

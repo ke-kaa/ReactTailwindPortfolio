@@ -26,7 +26,7 @@ export default function About() {
                 </div>
             </div>
             <div id="profile" className='lg:py-20'>
-                <div id="profile-img" className='rounded-full w-50 h-50 rounded overflow-hidden justify-self-center '>
+                <div id="profile-img" className='rounded-full w-50 h-50 rounded overflow-hidden justify-self-center mb-5'>
                     <img src={profileImage} alt="" />
                 </div>
                 <div className="contact-info flex gap-10 justify-self-center mb-20 px-5">

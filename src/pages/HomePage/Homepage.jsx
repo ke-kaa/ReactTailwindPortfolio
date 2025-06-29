@@ -67,7 +67,7 @@ export default function () {
             <a href='#' className='portfolio-link block justify-self-center bg-black text-white p-3'>View My Works</a>
             <a href='#' className="contact-me underline flex items-center justify-self-center h-full justify-center my-auto">
               Contact me
-              <img src={downArrow} alt="" className='w-4 h-4'/>
+              <img src={downArrow} alt="" className='animate-bounce w-4 h-4'/>
             </a>
           </div>
         </div>
