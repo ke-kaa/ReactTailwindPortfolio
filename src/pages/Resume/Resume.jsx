@@ -16,13 +16,13 @@ export default function Resume() {
     const mobileDescription = "Develop performant cross-platform applications (Flutter) with native module integration. Optimize for device constraints, implement platform-specific UX patterns, and leverage CI/CD pipelines for streamlined deployment.";    
     
     return (
-        <div className='min-h-screen py-10 px-5 flex items-center '>
+        <div id="resume" className='min-h-screen py-10 px-5 flex items-center dark:bg-dark-void dark:text-marigold'>
             <div className='mx-auto'>
                 <h1 className='text-4xl font-bold text-center mt-5'>A summary of my resume</h1>
                 <div id="resume-container" className='my-10 lg:flex lg:gap-5 max-w-[1400px] mx-auto'>
                     <div id="education" className='my-10 lg:fex-1'>
                         <h2 className='text-2xl font-bold my-5'>My Education</h2>
-                        <div id="education-container" className='border-l-4 pl-5 py-3'>
+                        <div id="education-container" className='border-l-4 border-[#d9d9d9] pl-5 py-3 dark:border-dusty-grey'>
                             <EducationCard title="BSc in Software Engineering" completionTime="AAU | 2022 - 2027" description={softwareDescription}/>
                             <EducationCard title="Backend Development Program" completionTime="ALX Ethiopia | 2024 - 2025" description={backendDescription}/>
                             <EducationCard title="Pro Backend Development" completionTime="ALX Ethiopia | 2025 - 2026" description={proBackendDescription}/>
@@ -32,7 +32,7 @@ export default function Resume() {
 
                     <div id="experience" className='my-10 lg:fex-1'>
                         <h2 className='text-2xl font-bold my-5'>My Experience</h2>
-                        <div id="experience-container" className='border-l-4 pl-5 py-3'>
+                        <div id="experience-container" className='border-l-4 border-[#d9d9d9] pl-5 py-3 dark:border-dusty-grey'>
                             <ExperienceCard title="Front End Developer" description={frontendDescription}/>
                             <ExperienceCard title="Backend Developer" description={expBackendDescription}/>
                             <ExperienceCard title="UI/UX Designer" description={uiuxDescription}/>

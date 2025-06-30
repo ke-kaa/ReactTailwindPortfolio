@@ -8,7 +8,7 @@ import githubProfileAnalyzerImg from '../../assets/projects_list/image.png'
 
 export default function Portfolio() {
     return (
-    <div  className='min-h-screen portfolio-container py-5 px-10 flex items-center'>
+    <div id="portfolio" className='min-h-screen portfolio-container py-5 px-10 flex items-center bg-[#d2d2d2] dark:bg-dark-void dark:text-marigold'>
             <div className='mx-auto'>
                 <h1 className='font-bold text-5xl text-center mt-5'>Some of my most recent projects</h1>
                 <div className='flex flex-wrap gap-10 my-20 justify-self-center md:grid md:grid-cols-2 lg:grid-cols-3 max-w-[1360px]'>

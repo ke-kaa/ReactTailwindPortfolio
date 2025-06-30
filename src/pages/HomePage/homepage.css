@@ -8,13 +8,6 @@
     50% { opacity: 0; }
 }
 
-.contact-me:visited {
-    color: #000;
-}
-
-.homePage {
-    background-color: #d2d2d2;
-}
 
 @media (max-width: 768px) {
     .contact-me {

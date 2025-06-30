@@ -4,9 +4,9 @@ import profileImage from '../../assets/profile/profile-square.jpg'
 
 export default function About() {
     return (
-        <div className='md:pt-10 lg:flex lg:justify-self-center lg:items-center lg:justify-center lg:gap-9 min-h-screen lg:px-10'>
+        <div id="about" className='md:pt-10 lg:flex lg:justify-self-center lg:items-center lg:justify-center lg:gap-9 min-h-screen lg:px-10 w-full dark:bg-dark-void dark:text-marigold'>
             <div id="about-me" className='text-center'>
-                <h1 className="font-bold text-5xl my-12">Know Me More</h1>
+                <h1 className="font-bold text-5xl py-12">Know Me More</h1>
                 <h2 className='text-3xl my-5'>Hi, I'm <span className="font-semibold">Kaku Amsalu</span></h2>
                 <div className='personal-info justify-self-center mb-20'>
                     <p className=''>
@@ -29,7 +29,7 @@ export default function About() {
                 <div id="profile-img" className='rounded-full w-50 h-50 rounded overflow-hidden justify-self-center mb-5'>
                     <img src={profileImage} alt="" />
                 </div>
-                <div className="contact-info flex gap-10 justify-self-center mb-20 px-5">
+                <div className="contact-info flex gap-10 justify-self-center pb-20 px-5">
                     <div>
                         <p className="color-6c">Name:</p>
                         <p className="font-bold">Kaku Amsalu</p>

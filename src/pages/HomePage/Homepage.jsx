@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import React, {useState, useEffect} from 'react';
+import { FaArrowDown } from 'react-icons/fa';
 import profileImage from '../../assets/profile/profile.jpg'
-import downArrow from '../../assets/icons/down-arrow.png'
 import './homepage.css'
 
 const TITLES = [
@@ -47,7 +47,7 @@ export default function () {
   }, [currentTitle]);
 
   return (
-    <div className='homePage py-20 min-h-screen flex items-center justify-center'>
+    <div className='homePage py-20 min-h-screen flex items-center justify-center bg-[#d2d2d2] dark:bg-dark-void dark:text-marigold'>
       <div className='w-full max-w-6xl flex flex-col lg:flex-row-reverse items-center justify-center lg:gap-10'>
         <div>
           <div id="profile-img"  className='rounded-full w-80 h-80 rounded overflow-hidden justify-self-center mb-20'>
@@ -55,7 +55,7 @@ export default function () {
           </div>
         </div>
         <div id="intro" className='text-center'>
-          <h1 className='text-2xl p-3'>
+          <h1 className='text-2xl p-3 dark:text-marigold'>
             HI, I'M A <br/>
             <span className='animated-title'>{displayedText}&nbsp;</span>
           </h1>
@@ -64,10 +64,10 @@ export default function () {
           </div>
           <p className='px-3'>Aspiring Full-Stack Developer | Passionate About Web Development & AI</p>
           <div id="work-contact" className='my-10 md:flex md:flex-row md:gap-2 md:justify-self-center md:gap-10'>
-            <a href='#' id="view-my-work" className='portfolio-link block justify-self-center bg-black text-white p-3 transition-transform duration-300 hover:scale-110 focus:scale-105'>View My Works</a>
-            <a href='#' id="contact-me" className="contact-me underline flex items-center justify-self-center h-full justify-center my-auto transition-transform duration-300 hover:scale-110 focus:scale-105 focus:outline-none">
-              Contact me
-              <img src={downArrow} alt="" className='animate-bounce w-4 h-4'/>
+            <a href='#portfolio' id="view-my-work" className='portfolio-link block justify-self-center bg-black text-white p-3 transition-transform duration-300 hover:scale-110 focus:scale-105 dark:text-marigold dark:bg-dusty-grey '>View My Works</a>
+            <a href='#contact' id="contact-me" className="contact-me underline flex items-center justify-self-center h-full justify-center my-auto transition-transform duration-300 hover:scale-110 focus:scale-105 focus:outline-none dark:text-marigold dark:focus:text-liquid-lova">
+              <span className='mr-1'>Contact me</span>
+              <FaArrowDown  size={16} className='animate-bounce'/>
             </a>
           </div>
         </div>
