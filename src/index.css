@@ -1,1 +1,17 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+@theme {
+    --color-dark-void: #16151A;
+    --color-liquid-lova: #f67011;
+    --color-gloun-lova: #873800;
+    --color-slate-grey: #262626;
+    --color-dusty-grey: #878787;
+    --color-marigold: #ffe4d0;
+    --shadow-even: 0 0 16px 0;
+}
+
+* {
+    box-sizing: border-box;
+}
