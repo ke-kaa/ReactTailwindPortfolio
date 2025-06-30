@@ -15,7 +15,7 @@ export default function ServicePage() {
     const uiuxDescription = "I design sleek, user-centric interfaces with a focus on usability and accessibility. Using Figma, I craft pixel-perfect prototypes and animations that enhance engagement and streamline navigation. I apply design systems and user journey mapping to ensure consistency and clarity across all touchpoints. My approach blends aesthetic appeal with data-driven decisions for optimal user satisfaction.";      
     return (
         <div id="services" className='min-h-screen service-page py-15 md:flex md:items-center md:justify-center bg-[#d2d2d2] dark:bg-dark-void dark:text-marigold'>
-            <div className='w-full'>
+            <div data-aos="fade-up" className='w-full'>
                 <h1 className='font-bold text-4xl text-center mb-20'>How I Bring Your Vision to Life</h1>
                 <div class="service-container md:flex md:flex-wrap md:justify-center md:mx-auto md:gap-3">
                     <ServiceCard src={FaCode} service="Frontend Development" description={frontendDescription}/>

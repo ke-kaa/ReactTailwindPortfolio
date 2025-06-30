@@ -19,8 +19,8 @@ export default function Resume() {
         <div id="resume" className='min-h-screen py-10 px-5 flex items-center dark:bg-dark-void dark:text-marigold'>
             <div className='mx-auto'>
                 <h1 className='text-4xl font-bold text-center mt-5'>A summary of my resume</h1>
-                <div id="resume-container" className='my-10 lg:flex lg:gap-5 max-w-[1400px] mx-auto'>
-                    <div id="education" className='my-10 lg:fex-1'>
+                <div data-aos="fade-up" id="resume-container" className='my-10 lg:flex lg:gap-5 max-w-[1400px] mx-auto'>
+                    <div data-aos="fade-up" id="education" className='my-10 lg:fex-1'>
                         <h2 className='text-2xl font-bold my-5'>My Education</h2>
                         <div id="education-container" className='border-l-4 border-[#d9d9d9] pl-5 py-3 dark:border-dusty-grey'>
                             <EducationCard title="BSc in Software Engineering" completionTime="AAU | 2022 - 2027" description={softwareDescription}/>
@@ -30,7 +30,7 @@ export default function Resume() {
                         </div>
                     </div>
 
-                    <div id="experience" className='my-10 lg:fex-1'>
+                    <div data-aos="fade-up" id="experience" className='my-10 lg:fex-1'>
                         <h2 className='text-2xl font-bold my-5'>My Experience</h2>
                         <div id="experience-container" className='border-l-4 border-[#d9d9d9] pl-5 py-3 dark:border-dusty-grey'>
                             <ExperienceCard title="Front End Developer" description={frontendDescription}/>
@@ -41,8 +41,8 @@ export default function Resume() {
                     </div>
                 </div>
                 <h2 className='font-bold mb-10 text-2xl text-center'>My Skills</h2>
-                <div id="skill-container" className='lg:flex lg:gap-15 px-2 max-w-[1400px] mx-auto'>
-                    <div className='lg:flex-1'> 
+                <div data-aos="fade-up" id="skill-container" className='lg:flex lg:gap-15 px-2 max-w-[1400px] mx-auto'>
+                    <div data-aos="fade-up" className='lg:flex-1'> 
                         <SkillBar skill="Python" progress="85%"/>
                         <SkillBar skill="Django/DRF" progress="85%"/>
                         <SkillBar skill="HTML5/CSS" progress="90%"/>
@@ -50,7 +50,7 @@ export default function Resume() {
                         <SkillBar skill="Javascript" progress="75%"/>
                         <SkillBar skill="Bootstrap/Tailwind" progress="75%"/>
                     </div>
-                    <div className='lg:flex-1'>
+                    <div data-aos="fade-up" className='lg:flex-1'>
                         <SkillBar skill="Flutter" progress="60%"/>
                         <SkillBar skill="Node/Express" progress="60%"/>
                         <SkillBar skill="React" progress="75%"/>

@@ -5,7 +5,7 @@ import profileImage from '../../assets/profile/profile-square.jpg'
 export default function About() {
     return (
         <div id="about" className='md:pt-10 lg:flex lg:justify-self-center lg:items-center lg:justify-center lg:gap-9 min-h-screen lg:px-10 w-full dark:bg-dark-void dark:text-marigold'>
-            <div id="about-me" className='text-center'>
+            <div data-aos="fade-up" id="about-me" className='text-center'>
                 <h1 className="font-bold text-5xl py-12">Know Me More</h1>
                 <h2 className='text-3xl my-5'>Hi, I'm <span className="font-semibold">Kaku Amsalu</span></h2>
                 <div className='personal-info justify-self-center mb-20'>
@@ -25,7 +25,7 @@ export default function About() {
                     </p>
                 </div>
             </div>
-            <div id="profile" className='lg:py-20'>
+            <div data-aos="fade-up" id="profile" className='lg:py-20'>
                 <div id="profile-img" className='rounded-full w-50 h-50 rounded overflow-hidden justify-self-center mb-5'>
                     <img src={profileImage} alt="" />
                 </div>

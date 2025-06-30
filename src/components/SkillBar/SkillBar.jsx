@@ -12,7 +12,7 @@ export default function SkillBar(props) {
                     <span>{hovered && (<span className='ml-2 font-bold'>{props.progress}</span>)}</span>
                 </div>
                 <div className="progress-bar transition-transform duration-500 hover:scale-105 bg-[#e0e0e0] rounded-[10px] ovreflow-hidden h-[8px] w-full dark:bg-dusty-grey" onMouseEnter={() => sethovered(true)} onMouseLeave={() => sethovered(false)}>
-                <div className="progress-fill bg-[#000] h-full w-0 dark:bg-marigold"
+                <div className="progress-fill bg-[#000] h-full w-0 rounded-[10px] dark:bg-marigold"
                     style={{ width: typeof props.progress === 'number' ? `${props.progress}%` : props.progress }}>
                 </div>
                 </div>

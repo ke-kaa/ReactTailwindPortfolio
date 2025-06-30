@@ -47,14 +47,14 @@ export default function () {
   }, [currentTitle]);
 
   return (
-    <div className='homePage py-20 min-h-screen flex items-center justify-center bg-[#d2d2d2] dark:bg-dark-void dark:text-marigold'>
+    <div data-aos="fade-up"className='homePage py-20 min-h-screen flex items-center justify-center bg-[#d2d2d2] dark:bg-dark-void dark:text-marigold'>
       <div className='w-full max-w-6xl flex flex-col lg:flex-row-reverse items-center justify-center lg:gap-10'>
-        <div>
+        <div data-aos="fade-up">
           <div id="profile-img"  className='rounded-full w-80 h-80 rounded overflow-hidden justify-self-center mb-20'>
             <img src={profileImage}/>
           </div>
         </div>
-        <div id="intro" className='text-center'>
+        <div data-aos="fade-up" id="intro" className='text-center'>
           <h1 className='text-2xl p-3 dark:text-marigold'>
             HI, I'M A <br/>
             <span className='animated-title'>{displayedText}&nbsp;</span>
