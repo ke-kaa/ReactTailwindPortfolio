@@ -12,9 +12,14 @@ export function sendEmail(e, onSuccess, onError) {
         e.target,
         PUBLIC_KEY
     ).then(
-        (result) => {alert('Message sent!');},
-        (error) => {alert('Failed to send, try again.');},
+        (result) => {
+            alert('Message sent successfully!');
+            e.target.reset();
+            if (onscroll) onSuccess(result);
+        },
+        (error) => {
+            alert('Failed to send, try again.');
+            if (onError) onError(error);
+        },
     );
-
-    e.target.reset();
 }
