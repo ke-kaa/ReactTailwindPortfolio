@@ -56,15 +56,15 @@ export default function () {
         </div>
         <div data-aos="fade-up" id="intro" className='text-center'>
           <h1 className='text-2xl p-3 dark:text-marigold'>
-            HI, I'M A <br/>
-            <span className='animated-title'>{displayedText}&nbsp;</span>
+            HI, I'M <br/>
           </h1>
           <div className="my-name text-5xl font-bold my-5">
             KAKU AMSALU
           </div>
+          <span className='animated-title block text-2xl mb-3'>{displayedText}&nbsp;</span>
           <p className='px-3'>Aspiring Full-Stack Developer | Passionate About Web Development & AI</p>
           <div id="work-contact" className='my-10 md:flex md:flex-row md:gap-2 md:justify-self-center md:gap-10'>
-            <a href='#portfolio' id="view-my-work" className='portfolio-link block justify-self-center bg-black text-white p-3 transition-transform duration-300 hover:scale-110 focus:scale-105 dark:text-marigold dark:bg-dusty-grey '>View My Works</a>
+            <a href='#portfolio' id="view-my-work" className='portfolio-link block justify-self-center bg-black text-white p-3 transition-transform duration-300 hover:scale-110 focus:scale-105 dark:text-marigold dark:bg-dusty-grey rounded'>View My Works</a>
             <a href='#contact' id="contact-me" className="contact-me underline flex items-center justify-self-center h-full justify-center my-auto transition-transform duration-300 hover:scale-110 focus:scale-105 focus:outline-none dark:text-marigold dark:focus:text-liquid-lova">
               <span className='mr-1'>Contact me</span>
               <FaArrowDown  size={16} className='animate-bounce'/>
