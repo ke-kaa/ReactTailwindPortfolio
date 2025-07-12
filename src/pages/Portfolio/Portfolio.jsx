@@ -34,24 +34,24 @@ export default function Portfolio() {
                         imgSrc={airbnbClone}
                         description="The Airbnb Clone Backend provides a robust, scalable, and modular RESTful and GraphQL-powered backend system that mimics the core functionalities of Airbnb. This includes user authentication, property listings, booking management, payment processing, and user reviews."
                         languages={["Django", "DRF", "GraphQL", "Celery", "Redis", "Docker", "OpenAPI/Swagger"]}
-                        githubUrl="https://github.com/ke-kaa/GithubProfileAnalyzer"
-                        visitUrl=""
+                        githubUrl="https://github.com/ke-kaa/airbnb-clone-project"
+                        visitUrl="https://github.com/ke-kaa/airbnb-clone-project"
                     />
                     
                     <ProjectCard
                         title="Freelancer Escrow API"
                         description="Escrow API is a secure and scalable backend service built with Django and Django REST Framework to manage freelance project payments through an escrow-based workflow. It supports role-based access for clients, freelancers, and admins, with features such as Stripe-based payment handling, dispute resolution, audit logging, and a fully RESTful API documented with Swagger/OpenAPI."
                         languages={["Django", "DRF", "PostgreSQL","Celery", "Redis", "OpenAPI/Swagger"]}
-                        githubUrl="https://github.com/ke-kaa/GithubProfileAnalyzer"
-                        visitUrl=""
+                        githubUrl="https://github.com/ke-kaa/FreelancerEscrowPaymentAPI"
+                        visitUrl="https://github.com/ke-kaa/FreelancerEscrowPaymentAPI"
                     />
 
                     <ProjectCard
                         title="Employee Timesheet and Leave Management API"
                         description="The Employee Timesheet & Leave Management API is a secure backend system that enables companies to track employee attendance, manage leave requests, and generate reports through role-based access for Employees, Managers, and Admins."
                         languages={["Django", "DRF", "GraphQL", "Celery", "Redis", "Docker", "OpenAPI/Swagger"]}
-                        githubUrl="https://github.com/ke-kaa/GithubProfileAnalyzer"
-                        visitUrl=""
+                        githubUrl="https://github.com/ke-kaa/EmployeeTimesheetAndLeaveManagementAPI"
+                        visitUrl="https://github.com/ke-kaa/EmployeeTimesheetAndLeaveManagementAPI"
                     />
 
                 </div>
