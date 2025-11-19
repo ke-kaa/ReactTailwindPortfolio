@@ -10,7 +10,7 @@ export default function About() {
                 <h2 className='text-3xl my-5'>Hi, I'm <span className="font-semibold">Kaku Amsalu</span></h2>
                 <div className='personal-info justify-self-center mb-20'>
                     <p className=''>
-                        I am a 3rd-year Software Engineering student at Addis Ababa University
+                        I am a 4th-year Software Engineering student at Addis Ababa University
                         with a strong passion for web & mobile applications development and artificial intelligence.
                         I thrive on designing intuitive and efficient web applications while
                         exploring the limitless possibilities of AI to solve complex,
