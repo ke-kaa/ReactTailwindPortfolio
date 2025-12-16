@@ -14,7 +14,7 @@ export default function Contact() {
                     <p className="mb-5">AAiT, Addis Ababa, Ethiopia</p>
                     <p className="font-bold mb-1">Call:</p>
                     <p className="">+251972489050</p>
-                    <div className="icons flex my-5 gap-3 justify-self-center">
+                    <div className="icons flex my-5 gap-3 justify-self-center mx-auto">
                         <a href="https://www.linkedin.com/kaku-amsalu"><FaLinkedin size={24}/></a>
                         <a href="https://www.twitter.com/in/k4_kuu"><FaInstagram size={24}/></a>
                         <a href="https://www.instagram.com/kakuu.a"><FaXTwitter size={24}/></a>
