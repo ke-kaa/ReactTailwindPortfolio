@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { FaArrowDown } from 'react-icons/fa';
 import profileImage from '../../assets/profile/profile.jpg'
+import newProf from '../../assets/profile/newProf.JPG'
 import './homepage.css'
 
 const TITLES = [
@@ -51,7 +52,7 @@ export default function () {
       <div className='w-full max-w-6xl flex flex-col lg:flex-row-reverse items-center justify-center lg:gap-10'>
         <div data-aos="fade-up">
           <div id="profile-img"  className='rounded-full w-80 h-80 rounded overflow-hidden justify-self-center mb-20'>
-            <img src={profileImage}/>
+            <img src={newProf}/>
           </div>
         </div>
         <div data-aos="fade-up" id="intro" className='text-center'>
