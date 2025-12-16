@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { FaArrowDown } from 'react-icons/fa';
-import profileImage from '../../assets/profile/profile.jpg'
-import newProf from '../../assets/profile/newProf.JPG'
+import profileImage from '../../assets/profile/profile.jpg';
+import newProf from '../../assets/profile/newProf.JPG';
 import './homepage.css'
 
 const TITLES = [
